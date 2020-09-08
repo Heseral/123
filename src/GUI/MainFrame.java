@@ -1,9 +1,11 @@
 package GUI;
 
+import Utils.GlobalVar;
+
 import javax.swing.*;
 
-public class MainMemeFrame extends JFrame {
-    public MainMemeFrame() {
+public class MainFrame extends JFrame {
+    public MainFrame() {
         setBounds(GlobalVar.windowWidth / 2, GlobalVar.windowHeight / 2, GlobalVar.windowWidth, GlobalVar.windowHeight);
 
         setDefaultCloseOperation(EXIT_ON_CLOSE);

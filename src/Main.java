@@ -1,7 +1,7 @@
-import GUI.MainMemeFrame;
+import GUI.MainFrame;
 
 public class Main {
     public static void main(String[] args) {
-        new MainMemeFrame().setVisible(true);
+        new MainFrame().setVisible(true);
     }
 }

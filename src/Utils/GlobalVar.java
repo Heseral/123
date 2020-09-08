@@ -1,4 +1,4 @@
-package GUI;
+package Utils;
 
 public abstract class GlobalVar {
     public static int windowWidth = 800;
